@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--
+
+▓█████▄  ▒█████   ██▀███   ██ ▄█▀    ██▓     ▒█████   ██▀███  ▓█████▄ 
+▒██▀ ██▌▒██▒  ██▒▓██ ▒ ██▒ ██▄█▒    ▓██▒    ▒██▒  ██▒▓██ ▒ ██▒▒██▀ ██▌
+░██   █▌▒██░  ██▒▓██ ░▄█ ▒▓███▄░    ▒██░    ▒██░  ██▒▓██ ░▄█ ▒░██   █▌
+░▓█▄   ▌▒██   ██░▒██▀▀█▄  ▓██ █▄    ▒██░    ▒██   ██░▒██▀▀█▄  ░▓█▄   ▌
+░▒████▓ ░ ████▓▒░░██▓ ▒██▒▒██▒ █▄   ░██████▒░ ████▓▒░░██▓ ▒██▒░▒████▓ 
+ ▒▒▓  ▒ ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░▒ ▒▒ ▓▒   ░ ▒░▓  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░ ▒▒▓  ▒ 
+ ░ ▒  ▒   ░ ▒ ▒░   ░▒ ░ ▒░░ ░▒ ▒░   ░ ░ ▒  ░  ░ ▒ ▒░   ░▒ ░ ▒░ ░ ▒  ▒ 
+ ░ ░  ░ ░ ░ ░ ▒    ░░   ░ ░ ░░ ░      ░ ░   ░ ░ ░ ▒    ░░   ░  ░ ░  ░ 
+   ░        ░ ░     ░     ░  ░          ░  ░    ░ ░     ░        ░    
+ ░                                                             ░      
+
+0xcomingsoon
+
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="assets/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      name="description"
+      content="DORKLORD - The memecoin of Stoned Troopers. 100% community-owned, building the biggest ETHpire in the galaxy to overthrow Pepe and take over the Pepeverse. The dark side is about to win."
+    />
+    <title>
+      DORKLORD - The Dork Side Rising to Crush Pepe and Rule the Meme Galaxy
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/viewport.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon-48x48.png"
+      sizes="48x48"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/assets/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.js"></script>
+  </head>
+  <body>
+    <div class="noise-overlay"></div>
+    <canvas id="space"></canvas>
+
+    <section data-opacity-trigger data-opacity-value="0.0"></section>
+    <main data-scroll-container>
+      <div class="dorklord-wordmark-container">
+        <img
+          src="assets/dorklord-wordmark.svg"
+          alt="Dorklord"
+          class="dorklord-wordmark glow-effect-100"
+        />
+      </div>
+
+      <div class="hands-container">
+        <h1>The dorkside of<br />the force</h1>
+        <img
+          src="assets/hero-left-hand.webp"
+          alt="Left hand"
+          class="hand hand-left"
+        />
+        <img
+          src="assets/hero-right-hand.webp"
+          alt="Right hand"
+          class="hand hand-right"
+        />
+      </div>
+
+      <div class="buy-buttons">
+        <a
+          href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon"
+          target="_blank"
+          class="buy-button"
+        >
+          <img src="assets/btn-buy-on-uniswap.svg" alt="Buy on Uniswap" />
+        </a>
+      </div>
+
+      <div class="social-icons">
+        <a
+          href="https://t.me/dorklord_mattfurie"
+          target="_blank"
+          class="social-icon"
+          ><img src="assets/icon-social/Telegram.svg" alt="Telegram"
+        /></a>
+        <a
+          href="https://x.com/dorklord_furie"
+          target="_blank"
+          class="social-icon"
+          ><img src="assets/icon-social/x.svg" alt="X (formerly Twitter)"
+        /></a>
+        <a
+          href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon"
+          target="_blank"
+          class="social-icon"
+          ><img src="assets/icon-social/Uniswap.svg" alt="Uniswap"
+        /></a>
+        <a
+          href="https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon"
+          target="_blank"
+          class="social-icon"
+          ><img src="assets/icon-social/Dextool.svg" alt="Dextool"
+        /></a>
+        <a
+          href="https://dexscreener.com/ethereum/0xcomingsoon"
+          target="_blank"
+          class="social-icon"
+          ><img src="assets/icon-social/ico-Dexscreener.svg" alt="Dexscreener"
+        /></a>
+        <a
+          href="https://etherscan.io/token/0xcomingsoon"
+          target="_blank"
+          class="social-icon"
+          ><img src="assets/icon-social/ethscan.svg" alt="Etherscan"
+        /></a>
+      </div>
+
+      <section class="order-section">
+        <div class="order-content">
+          <h2
+            class="order-title glow-effect-50"
+            data-scroll
+            data-scroll-speed=".7"
+          >
+            EXECUTE <br />
+            ORDER <br />
+            Last <br />
+          </h2>
+          <p
+            class="order-description"
+            data-typing="A 100% community-run memecoin of Stoned Troopers, building the biggest ETHpire in the galaxy"
+          >
+            _
+          </p>
+        </div>
+        <canvas id="order-canvas"></canvas>
+
+        <img
+          src="assets/intro-dork.webp"
+          alt="Dork Paper"
+          class="order-dork-image"
+        />
+      </section>
+      <section data-opacity-trigger data-opacity-value="0"></section>
+      <section class="desc-section">
+        <h2
+          class="desc-title glow-effect-50"
+          data-scroll
+          data-scroll-speed=".7"
+        >
+          0x9b7
+        </h2>
+        <div class="desc-content">
+          <img
+            src="assets/description-dork.webp"
+            alt="Dork Description"
+            class="dork-description-image"
+          />
+          <canvas id="desc-canvas"></canvas>
+          <p class="desc-overlay" data-scroll data-scroll-speed="1">
+            DORKLORD has a contract address with the lore last ORDER while
+            seamlessly unleashing the DORKSIDE. <br />
+            <span> Max Total Supply 1,000,000,000<br /> </span>
+            0x9b7e6e36d8b07f09d5ec<br />faede447949a505043cf<br />
+            <span> Bringing Down Pepe<br /> </span>
+            DORKLORD is the antagonist of the Pepeverse.<br />
+          </p>
+        </div>
+      </section>
+
+      <section data-opacity-trigger data-opacity-value="1"></section>
+      <section data-opacity-trigger></section>
+      <section class="paper-section">
+        <h2
+          class="paper-title glow-effect-50"
+          data-scroll
+          data-scroll-speed="2"
+        >
+          THE<br />DORK<br />PAPER
+        </h2>
+        <canvas id="paper-canvas"></canvas>
+        <img
+          src="assets/paper-dork.webp"
+          alt="Dork Paper"
+          class="paper-image"
+        />
+        <div class="video-container">
+          <video
+            controls
+            class="paper-video"
+            poster="https://customer-aumw8c3fq5cld5oz.cloudflarestream.com/772df5c6474719ec87050b76273f6a9c/thumbnails/thumbnail.jpg"
+          >
+            <source
+              src="https://customer-aumw8c3fq5cld5oz.cloudflarestream.com/772df5c6474719ec87050b76273f6a9c/manifest/video.m3u8"
+              type="application/x-mpegURL"
+            />
+            <source
+              src="https://customer-aumw8c3fq5cld5oz.cloudflarestream.com/772df5c6474719ec87050b76273f6a9c/manifest/video.mpd"
+              type="application/dash+xml"
+            />
+            <source
+              src="https://customer-aumw8c3fq5cld5oz.cloudflarestream.com/772df5c6474719ec87050b76273f6a9c/downloads/default.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <section data-opacity-trigger data-opacity-value="1"></section>
+
+      <section class="infos-section">
+        <img
+          src="assets/info.webp"
+          alt="Infos"
+          class="infos-image"
+          data-scroll
+          data-scroll-speed="1"
+        />
+        <section data-opacity-trigger data-opacity-value="0"></section>
+        <table class="infos-table glow-effect-50">
+          <tr>
+            <th class="col-title">MAX TOTAL SUPPLY</th>
+            <td class="col-content word-break">
+              <span data-typing="1,000,000,000"></span>
+            </td>
+            <td class="col-45"></td>
+          </tr>
+          <tr>
+            <th class="col-title">ZERO TAXES</th>
+            <td class="col-content">
+              <span
+                data-typing="DORKLORD may rule the DORKSIDE, but he does NOT believe in taxes"
+              ></span>
+            </td>
+            <td class="col-45"></td>
+          </tr>
+          <tr>
+            <th class="col-title">Last MAFIA</th>
+            <td class="col-content">
+              <span
+                data-typing="100% Community owned <br /> DORKLORD’s ETHpire is 100% community.  WE are all the SITH!"
+              ></span>
+            </td>
+            <td class="col-45"></td>
+          </tr>
+          <tr>
+            <th class="col-title">SNIPERS OUT!</th>
+            <td class="col-content">
+              <span
+                data-typing="The bounty hunters made their money and fled. Less than 0.19% is still held by the first 70 wallets at the time of the community takeover. Now, we’re building a galactic ETHpire destined to destroy the Jeeti’s!"
+              ></span>
+            </td>
+            <td class="col-45"></td>
+          </tr>
+          <tr>
+            <th class="col-title">CONTRACT RENOUNCED & LP BURNT</th>
+            <td class="col-content">
+              <span
+                data-typing="The dev renounced the contract, granting DORKLORD complete free will."
+              ></span>
+            </td>
+            <td class="col-45"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="tokenomics-section">
+        <h2 class="glow-effect-100">TOKENOMICS</h2>
+        <section data-opacity-trigger data-opacity-value="0"></section>
+        <div class="tokenomics-content">
+          <img
+            src="assets/tokenomics.webp"
+            alt="Tokenomics"
+            class="tokenomics-image"
+            data-scroll
+            data-scroll-speed="1"
+          />
+          <table class="tokenomics-table glow-effect-50">
+            <tr>
+              <th>Buy Tax</th>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th>Sell tax</th>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th>Contract safety</th>
+              <td>Renounced</td>
+            </tr>
+            <tr>
+              <th>Liquidity Pool</th>
+              <td>Burned in chaos</td>
+            </tr>
+            <tr>
+              <th>Contact Address</th>
+              <td class="word-break">
+                0xcomingsoon
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section data-opacity-trigger data-opacity-value="1"></section>
+
+      <footer>
+        <p><span data-typing="Credits"></span></p>
+        <p>
+          <span
+            data-typing="Website design and frontend by <a href='https://x.com/0xfungo' target='blank'>0xFungo</a> with the dev support of <a href='https://x.com/0xr0tt3nC4r0t' target='blank'>0xRottenCarot</a> in collaboration with <a href='https://deuxhuithuit.com' target='blank'>288 superdigital office</a>. Artwork commissioned to <a href='https://x.com/pepechiller' target='_blank'>PepeChiller</a> by <a href='https://x.com/Handrew_Tate' target='_blank'>Handrew Tate</a>"
+          ></span>
+        </p>
+        <p>
+          <span data-typing="COPYRIGHT © 2025. ALL RIGHTS RESERVED."></span>
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://rawgit.com/akm2/simplex-noise.js/master/simplex-noise.js"></script>
+
+    <script type="text/javascript" src="assets/stars-warp.js"></script>
+    <script type="text/javascript" src="assets/dork.js"></script>
+    <script type="text/javascript" src="assets/lightning.js"></script>
+    <script>
+      // Configurations spécifiques pour chaque canvas
+      var orderConfig = {
+        backgroundColor: "rgba(0, 0, 0, 0)", // Fond transparent
+        lightning: {
+          count: 3,
+          startPoints: [
+            { x: 0.57, y: 0.43 },
+            // { x: .42, y: .47 },
+            // { x: .61, y: .455 },
+            { x: 0.7, y: 0.44 },
+            { x: 0.83, y: 0.12 },
+          ],
+          endPoints: [
+            { x: 0.2, y: 0.8 },
+            // { x: .3, y: .94 },
+            // { x: .52, y: .98 },
+            { x: 0.48, y: 0.89 },
+            { x: 0.75, y: 0.71 },
+          ],
+          amplitude: 100,
+          speed: 0.16,
+          thickness: 40,
+          blur: 10,
+          color: [198, 144, 204],
+        },
+      };
+
+      var descConfig = {
+        backgroundColor: "rgba(0, 0, 0, 0)",
+        lightning: {
+          count: 3,
+          startPoints: [
+            { x: 0.13, y: 0.38 },
+            { x: 0.1, y: 0.49 },
+            { x: 0.53, y: 0.3 },
+          ],
+          endPoints: [
+            { x: 0.71, y: 0.5 },
+            { x: 0.8, y: 0.75 },
+            { x: 0.82, y: 0.45 },
+          ],
+          amplitude: 150,
+          speed: 0.16,
+          thickness: 40,
+          blur: 10,
+          color: [198, 144, 204],
+        },
+      };
+
+      var paperConfig = {
+        backgroundColor: "rgba(0, 0, 0, 0)",
+        lightning: {
+          count: 3,
+          startPoints: [
+            { x: 0.35, y: 0.1 },
+            { x: 0.35, y: 0.24 },
+            { x: 0.58, y: 0.24 },
+          ],
+          endPoints: [
+            { x: 0.45, y: 0.75 },
+            { x: 0.85, y: 0.8 },
+            { x: 0.25, y: 0.83 },
+          ],
+          amplitude: 150,
+          speed: 0.16,
+          thickness: 48,
+          blur: 10,
+          color: [198, 144, 204],
+        },
+      };
+
+      // Initialiser les effets sur chaque canvas
+      LightningEffect("order-canvas", orderConfig);
+      LightningEffect("desc-canvas", descConfig);
+      LightningEffect("paper-canvas", paperConfig);
+
+      // data-scroll data-transform-type="scale" data-transform-value="1.5"
+      // data-scroll data-scroll-speed=".7"
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"93e22434eb7301d9","version":"2025.4.0-1-g37f21b1","r":1,"token":"35b584db4185499db5eb4fe6dad611b3","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
